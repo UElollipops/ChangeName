@@ -199,13 +199,24 @@ namespace ChangeName
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-                //MessageBox.Show("     已经修改完毕~");
             }
+            TiShiMSG();
+        }
+        //修改完成提示信息
+        private static async Task TiShiMSG()
+        {
+            await DisplayMessageBoxAsync("      已经修改成功啦...");
+            // 可以在这里编写程序的其他逻辑
+            // ...
 
-            Task.Run(() =>
+            Console.ReadLine();
+        }
+        private static async Task DisplayMessageBoxAsync(string message)
+        {
+            await Task.Run(() =>
             {
-                //线程执行的操作
-            }).ContinueWith(LivenessTask);
+                MessageBox.Show(message);
+            });
         }
 
 
