@@ -1,0 +1,10 @@
+E:\WinForm\ChangeName\ChangeName\bin\Debug\ChangeName.exe.config
+E:\WinForm\ChangeName\ChangeName\bin\Debug\ChangeName.exe
+E:\WinForm\ChangeName\ChangeName\bin\Debug\ChangeName.pdb
+E:\WinForm\ChangeName\ChangeName\obj\Debug\ChangeName.csproj.AssemblyReference.cache
+E:\WinForm\ChangeName\ChangeName\obj\Debug\ChangeName.Properties.Resources.resources
+E:\WinForm\ChangeName\ChangeName\obj\Debug\ChangeName.csproj.GenerateResource.cache
+E:\WinForm\ChangeName\ChangeName\obj\Debug\ChangeName.csproj.CoreCompileInputs.cache
+E:\WinForm\ChangeName\ChangeName\obj\Debug\ChangeName.exe
+E:\WinForm\ChangeName\ChangeName\obj\Debug\ChangeName.pdb
+E:\WinForm\ChangeName\ChangeName\obj\Debug\ChangeName.Form1.resources

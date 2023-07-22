@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="批量改名.exe" version="1.0.0.0" publicKeyToken="1eb4f794c822ac34" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ico1.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="批量改名" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="批量改名.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="批量改名.exe" size="867312">
+      <assemblyIdentity name="批量改名" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Y95x9EOk7oyBG6OV4tukbc5MXWqFJL1wWxnc5elfEhg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ico1.ico" size="270398">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hGOruWSjVP/Vc4m/uyXgxXS8T0oKCY+/hEIdAoVYLn8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="批量改名.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-IBVTDH8\DONGHUI" issuerKeyHash="274b4033bc698fce553a69e1d82cb2e759ca6b85" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+wanBC0FYtTX6ROqpaGGv0Jh/o8cwF0dwQaHwgI+R/g=</DigestValue></Reference></SignedInfo><SignatureValue>nlAdtFD1Blxr6aLbmw/ro35RWttgf6zrP/wgIPDjvsIzw/U/G20J0Se6DtyDTvPqeZIGkO+tLax3hygFuMHu79YG9vdvgwhDgTW938O7Rf1xpPs7WA03DB5kXYU8bHTJ1TNDQueLyRkqCkwJIPRecPTEnL9ZnJ9J9DAUAToSQs8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yP1EzXe+jF7xqJ7gd9lxtmYt/OctepznFKYTWKrF7FW+0XW8PS30AhwRGmdxvtr80Kxlj4BTjsvkIokyq9r2Hc+CCk2NF7YKz89Xc99DMwDD3EQBnpIfk3K1JXc2e9/159RarUtLpz3KdzHizAvQJI3H/D9ehlS2ejlH/QHi5nE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f8473e02c28706c11d5dc01c8ffe6142bf86a1a5aa13e9d7d462052d04a706fb" Description="" Url=""><as:assemblyIdentity name="批量改名.exe" version="1.0.0.0" publicKeyToken="1eb4f794c822ac34" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-IBVTDH8\DONGHUI</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hrjo8bTPW7hwXU+cM1+g1HaPhtfKqOc65CcHedroUL0=</DigestValue></Reference></SignedInfo><SignatureValue>Rt8EGK6+naSHUZXkJRcEjAQVj3iI6h073+W+0SL9sbnYV9JS8khdk9nzY1rXKXysOSyDxJglILmriteVGNvqQk28G2ajKFxMvLEFJR1CpCGfzwfyLlQBNcAh/9zlNlT5svxxJrH9FKhCTXFwZwpiraJrNs/7fMy0bgi0WJ946Hw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yP1EzXe+jF7xqJ7gd9lxtmYt/OctepznFKYTWKrF7FW+0XW8PS30AhwRGmdxvtr80Kxlj4BTjsvkIokyq9r2Hc+CCk2NF7YKz89Xc99DMwDD3EQBnpIfk3K1JXc2e9/159RarUtLpz3KdzHizAvQJI3H/D9ehlS2ejlH/QHi5nE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQU65uHrKP8IdLM9PopGLMozANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAEkAQgBWAFQARABIADgAXABEAE8ATgBHAEgAVQBJMB4XDTIzMDcyMjE0NDQyN1oXDTI0MDcyMTIwNDQyN1owOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBJAEIAVgBUAEQASAA4AFwARABPAE4ARwBIAFUASTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAyP1EzXe+jF7xqJ7gd9lxtmYt/OctepznFKYTWKrF7FW+0XW8PS30AhwRGmdxvtr80Kxlj4BTjsvkIokyq9r2Hc+CCk2NF7YKz89Xc99DMwDD3EQBnpIfk3K1JXc2e9/159RarUtLpz3KdzHizAvQJI3H/D9ehlS2ejlH/QHi5nECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBGdv0RJD2TzCqsqFNJcGk3ftjgBpzA88m4k1khTCtFpWCO55Zxeb30JFYu8DNPPgSZa1VFGFy66iXdH90awnH0PHbVTbbQJSTCaQmLI2ueuUmcrbdnvzclKVC/cQ5MrWT2lqSkb5A/WxlJ/DCLxqmiCtkee02W5f8DO66w/Ax/hg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
